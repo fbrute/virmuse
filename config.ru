@@ -2,7 +2,6 @@
 
 require ::File.expand_path('../config/environment',  __FILE__)
 run Virmuse::Application
-=======
 require 'rack/lobster'
 
 map '/health' do
@@ -180,4 +179,3 @@ WELCOME_CONTENTS
   end
   run welcome
 end
->>>>>>> 2d5b2d6839d29b5a3eba0440779a953ec5002046
